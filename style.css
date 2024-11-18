@@ -197,6 +197,7 @@ hr{
     display: flex;
     justify-content: space-between;
     font-family: sans-serif;
+    /* border-bottom: 1px solid white; */
 }
 .as{
     display: flex;
@@ -238,7 +239,7 @@ hr{
     font-family: sans-serif;
     margin-top: 40px;  
 }
-.ten>p{
+.ten p{
     font-family: sans-serif;
     font-size: 18px;
     font-weight: 100;
@@ -263,7 +264,60 @@ hr{
 .ek>p{
     text-align: left;
 }
-.main>img{
+.main img{
     height: 350px;
-    background-color: #bfc500;
+    background-color:#bfc500;
 }
+
+/* screen size 1400px check */
+@media (max-width:1660px) {
+    .items img{
+        width: 210px;
+        height: 110px;
+    }
+    .container header nav ul li{
+        font-size: 18px;
+    }
+    .bayc {
+        font-size: 22px;
+        font-weight: 100;
+    }
+    #dark{
+        font-size: 35px;
+    }
+    #third{
+         font-size:27px ;
+    }
+    #third+p {
+        font-size: 30px;
+    }
+    #third {
+        font-size: 27px;
+    }
+    .note{
+        font-size: 30px;
+    }
+}
+/* screen size 1200px check */
+@media (max-width: 1339px) {
+    
+}
+/* screen size 992px check */
+@media (max-width: 1199px){
+
+}
+/* screen size 768px check */
+@media (max-width: 991px) {
+    
+}
+/* screen size 576px check */
+@media (max-width: 767px) {
+    
+}
+@media (max-width: 576px) {
+    
+}
+@media (max-width:390px ) {
+    
+}
+
